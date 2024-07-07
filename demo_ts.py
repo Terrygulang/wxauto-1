@@ -22,7 +22,7 @@ def show_weather(api_key, city='Beijing'):
     return (f"当前 {city.upper()} 天气：{weather_data[2]}，温度：{round((weather_data[0]-273.15))}℃，湿度：{weather_data[1]}%, 风速：{weather_data[3]}")
     # print(f"当前时间：{get_time()}")
 
-api_key = 'b63775f0a1ab48934bbc07cc2501a348'
+api_key = 'b63775f0a1ab48934bbc07cc2501a348829'
 city = 'Sydney'
 # show_weather(api_key, city)
 
